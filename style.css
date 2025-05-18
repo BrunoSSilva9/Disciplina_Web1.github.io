@@ -74,6 +74,6 @@ footer p {
 
 @media (max-width: 500px) {
   footer {
-    justify-content: center;
+    justify-items: center;
   }
 }
