@@ -71,3 +71,9 @@ footer p {
   padding-bottom: 40px;
   color: #f0e8c2;
 }
+
+@media (max-width: 500px) {
+  footer {
+    justify-content: center;
+  }
+}
