@@ -67,6 +67,10 @@ picture img {
   padding-left: 30px;
 }
 
+footer {
+  width: 100vw;
+}
+
 footer p {
   padding-bottom: 40px;
   color: #f0e8c2;
