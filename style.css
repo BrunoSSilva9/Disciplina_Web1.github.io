@@ -45,6 +45,17 @@ picture img {
   border-radius: 24px;
 }
 
+@media (max-width: 800px) {
+  .container {
+    padding-block: 0;
+    margin-bottom: 0;
+  }
+
+  .content-principal {
+    border-radius: 0;
+  }
+}
+
 .introducao {
   display: flex;
   flex-direction: column;
@@ -68,7 +79,9 @@ picture img {
 }
 
 footer {
-  width: 100vw;
+  width: 100%;
+  max-width: 800px;
+  justify-items: center;
 }
 
 footer p {
@@ -76,9 +89,14 @@ footer p {
   color: #f0e8c2;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   footer {
-    justify-items: center;
-    justify-content: center;
+    background-color: #f0e8c2;
+    align-content: center;
+    margin: 0;
+  }
+
+  footer p {
+    color: #833a34;
   }
 }
